@@ -1,0 +1,18 @@
+* {
+    background-color: #f4f4d7;
+    color: #888476;
+    font-family: 'Times New Roman', serif;
+}
+
+p {
+    font-size: 19px;
+}
+
+li {
+    font-size: 19px;
+}
+
+.volver {
+    font-size: 20px;
+    color: rgb(76, 151, 161);
+}
