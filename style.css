@@ -1,5 +1,6 @@
 body {
     background-color: rgb(255, 236, 239);
+    margin: 14px;
 }
 
 .recetas {
@@ -9,7 +10,7 @@ body {
     max-width: 400px;
     height: auto;
     margin: 0 auto;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 h1 {

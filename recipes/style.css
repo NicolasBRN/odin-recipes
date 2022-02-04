@@ -9,8 +9,8 @@ body {
 .carta {
     background-color: rgb(248, 237, 246);
     border: 4px dotted rgb(240, 214, 235);
-    margin: 10px;
-    padding: 20px;
+    margin: 14px;
+    padding: 18px;
 }
 
 p {
@@ -45,7 +45,7 @@ a {
 
 .volver {
     background-color: rgb(222, 248, 184);
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(68, 66, 66);
     display: block;
     text-align: center;
