@@ -2,26 +2,26 @@ body {
     background-color: #f4f4d7;
     color: #888476;
     font-family: 'Times New Roman', seriff;
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: 600px;
+    margin: 10px auto;
 }
 
 .carta {
     background-color: rgb(248, 237, 246);
     border: 4px dotted rgb(240, 214, 235);
-    margin: 20px auto;
-    max-width: 600px;
-    padding: 30px;
+    margin: 10px;
+    max-width: ;
+    padding: 20px;
 }
 
 p {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 8px;
     margin-top: 8px;
 }
 
 li {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 4px;
 }
 
@@ -29,12 +29,13 @@ li {
 h1 {
     text-align: center;
     padding: 10px;
-    font-size: 40px;
+    font-size: 34px;
     margin: 10px;
+    margin-top: 0px;
 }
 
 h2{
-    font-size: 26px;
+    font-size: 23px;
     margin: 10px;
     margin-left: 0px;
 }
