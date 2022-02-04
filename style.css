@@ -1,16 +1,43 @@
-* {
+body {
     background-color: rgb(255, 236, 239);
 }
 
+.recetas {
+    border: 2px outset rgb(173, 224, 173);
+    border-radius: 0px;
+    background-color: rgb(224, 243, 194);
+    max-width: 400px;
+    height: 500px;
+    margin: 0 auto;
+}
+
 h1 {
-    color: #b38f9a;
+    color: rgb(117, 100, 100);
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     text-align: center;
+    margin-bottom: 170px;
 }
 
 li {
-    color: #ffccd5;
-    font-size: 20px;
+    color: #332c2c;
+    font-size: 22px;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 12px;
+}
+
+
+a {
     text-decoration: none;
+    color: rgb(143, 92, 92);
+    background-color: rgb(248, 217, 248);
+    border: 2px outset rosybrown;
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+a:hover {
+    background-color: rgb(245, 182, 245)
 }
