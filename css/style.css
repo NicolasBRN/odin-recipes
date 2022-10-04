@@ -1,11 +1,30 @@
 body {
-    background-color: blanchedalmond;
+    background-color: #D3E4CD;
     text-align: center;
-    font-family: monospace;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
     font-size: 41px;
+    color: #304d30;
+}
+
+h3 {
+    color: #304d30;
+}
+
+p {
+    color: #304d30;
+}
+
+.titulo-home {
+    margin-bottom: 0px;
+}
+
+.subtitulo {
+    margin-top: 5px;
+    font-size: 23px;
+    color: #304d30;
 }
 
 .titulo-receta {
@@ -14,8 +33,8 @@ h1 {
 
 .lista,
 .carta-receta {
-    border: 4px rgb(185, 184, 184) dotted;
-    background-color: rgb(231, 255, 195);
+    border: 6px #f6e4d5 outset;
+    background-color: #FEF5ED;
     max-width: 400px;
     height: auto;
     margin: 0 auto;
@@ -41,6 +60,7 @@ h1 {
 
 li {
     list-style: none;
+    padding: 4px;
 }
 
 ul,
@@ -50,9 +70,10 @@ ol {
 
 a {
     text-decoration: none;
-    color: rgb(220, 20, 234);
+    color: #439543;
     display: inline-block;
     width: 132px;
+    font-size: 22px;
 }
 
 .lista-recipes a:hover {
@@ -60,14 +81,13 @@ a {
 }
 
 button {
-    background-color: rgb(247, 207, 241);
+    background-color: #c0efb7;
     width: 134px;
     padding: 1px 0px 1px 0px;
-    border: 2px outset rgb(244, 177, 188);
+    border: 3px outset rgb(185, 224, 174);
     margin-top: 6px;
 }
 
 button:hover {
-    color: greenyellow;
-    border: 2px inset  rgb(254, 158, 174);
+    border: 3px inset  rgb(185, 224, 174);;
 }
