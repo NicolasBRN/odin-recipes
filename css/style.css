@@ -1,0 +1,73 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 41px;
+}
+
+.titulo-receta {
+    font-size: 30px;
+}
+
+.lista,
+.carta-receta {
+    border: 4px rgb(185, 184, 184) dotted;
+    background-color: rgb(231, 255, 195);
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.lista-recipes {
+    padding-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.carta-receta {
+    padding: 20px;
+    padding-bottom: 14px;
+    padding-top: 0px;
+}
+
+.recipes {
+    list-style: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+ul,
+ol {
+    padding-left: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(220, 20, 234);
+    display: inline-block;
+    width: 132px;
+}
+
+.lista-recipes a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: rgb(247, 207, 241);
+    width: 134px;
+    padding: 1px 0px 1px 0px;
+    border: 2px outset rgb(244, 177, 188);
+    margin-top: 6px;
+}
+
+button:hover {
+    color: greenyellow;
+    border: 2px inset  rgb(254, 158, 174);
+}
